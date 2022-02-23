@@ -1,0 +1,49 @@
+.simpleSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.simpleContent {
+  max-width: 1500px;
+  width: 100%;
+  min-width: 340px;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+  padding-right: 2rem;
+}
+
+.simpleCard {
+  display: flex;
+  // width: 100%;
+  // margin: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  .card {
+    width: 25%;
+    min-width: 300px;
+    padding: 0 10px 0 10px;
+    color: #656565;
+  }
+}
+.cardBottomText {
+  margin-top: 3rem;
+}
+.cardFooter {
+  text-align: center;
+  background-color: #5d5b59;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-weight: 600;
+  font-weight: 5px;
+  button {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+}

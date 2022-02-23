@@ -1,0 +1,42 @@
+.heroSection {
+  background-image: url(https://uploads-ssl.webflow.com/607e52c130b67869671e3951/607f67ef1b89d5ef27c3003a_sweeps_moving_and_more-min.jpeg);
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+
+  .heroContent {
+    max-width: 1500px;
+    width: 100%;
+    color: aliceblue;
+    // padding: 0 25px;
+
+    .content {
+      width: 50%;
+      min-width: 280px;
+      padding-left: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+      background-color: #2b2b2b89;
+      padding-bottom: 2.5rem;
+
+      h1 {
+        font-weight: 700;
+        font-size: 3rem;
+      }
+    }
+    button {
+      background-color: #50bf82;
+      padding: 0.5rem 2rem;
+      color: aliceblue;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}

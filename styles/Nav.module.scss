@@ -1,0 +1,55 @@
+$green-Btn: #50bf82;
+
+.NavSection {
+  background-color: #e5e5e5;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.NavBar {
+  width: 100%;
+  max-width: 1500px;
+  min-width: 320px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavManu {
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 1rem;
+      padding: 0px 5px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      margin-left: 1rem;
+      padding: 5px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 1rem;
+      background-color: $green-Btn;
+      min-width: 100px;
+    }
+    .grayBtn {
+      background-color: transparent;
+    }
+  }
+  @media (max-width: 1000px) {
+    p,
+    li,
+    div {
+      display: none;
+    }
+    .listItem {
+      display: block;
+    }
+  }
+  @media (max-width: 620px) {
+    display: none;
+  }
+}
