@@ -37,6 +37,12 @@
                 border-radius: 10px;
                 overflow: hidden;
                 margin-bottom: 5%;
+                transition: all ease 0.2s;
+
+                &:hover {
+                    transform: translateY(-20px);
+                    transition: all ease 0.4s;
+                }
 
 
                 &:not(:last-child) {
@@ -46,7 +52,7 @@
                 .textContainer {
                     display: flex;
                     justify-content: space-between;
-                    padding: 0 1rem;
+                    padding: 1rem 1rem;
                 }
             }
         }
