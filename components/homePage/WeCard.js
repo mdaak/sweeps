@@ -29,7 +29,7 @@ const WeCard = () => {
           <div className={styles.card}>
             <div className={styles.imgContainer}>
               <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
+                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7d3a23a8b2d56dbaf57_moving.jpg"
                 layout="fill"
                 alt=""
               />
@@ -42,7 +42,7 @@ const WeCard = () => {
           <div className={styles.card}>
             <div className={styles.imgContainer}>
               <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
+                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7c3a07f3d64a9fa8afd_cleaning.jpeg"
                 layout="fill"
                 alt=""
               />

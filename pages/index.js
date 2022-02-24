@@ -1,6 +1,9 @@
+import Footer from "../components/homePage/Footer";
 import HeroSection from "../components/homePage/HeroSection";
 import SimpleReliable from "../components/homePage/SimpleReliable";
-import WeCard from "../components/homePage/WeCard";
+import WeCard from '../components/homePage/WeCard';
+import WhySweeps from '../components/homePage/WhySweeps';
+
 
 export default function Home() {
   return (
@@ -8,6 +11,8 @@ export default function Home() {
      <HeroSection/>
      <SimpleReliable/>
      <WeCard/>
+     <WhySweeps/>
+     <Footer/>
    </div>
   )
 }
