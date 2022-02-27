@@ -10,6 +10,7 @@
 
         h1 {
             color: black;
+            font-size: 2rem;
         }
 
         .cardSection {
@@ -17,23 +18,25 @@
             padding: 2rem 2rem;
             grid-template-columns: auto auto auto auto;
 
-            @media (max-width:1000px) {
-                grid-template-columns: auto auto auto;
+            // @media (max-width:1000px) {
+            //     grid-template-columns: auto auto auto;
 
-            }
+            // }
 
             @media (max-width:750px) {
-                grid-template-columns: auto auto;
-
-            }
-
-            @media (max-width:550px) {
                 grid-template-columns: auto;
 
             }
 
+            // @media (max-width:550px) {
+            //     grid-template-columns: auto;
+
+            // }
+
             .card {
-                padding: 0 10px;
+                padding: 2rem 2rem;
+                font-size: 2rem;
+                width: 100%;
             }
         }
     }

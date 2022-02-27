@@ -9,19 +9,28 @@
         min-width: 350px;
         padding: 0 2rem;
         text-align: center;
+        font-size: 4rem;
+        h1{
+            font-size: 3rem;
+        }
 
 
         .cardDiv {
             display: grid;
             grid-template-columns: auto auto auto auto;
-            padding-top: 2rem;
+            padding-top: 3rem;
+            column-gap: 3rem;
 
             @media (max-width: 1200px) {
                 grid-template-columns: auto auto auto;
             }
 
-            @media (max-width: 650px) {
+            @media (max-width: 750px) {
                 grid-template-columns: auto auto;
+                column-gap: 2rem;
+                min-width: 20rem;
+
+
             }
 
             @media (max-width: 480px) {
@@ -29,14 +38,12 @@
             }
 
             .card {
-                max-width: 300px;
                 width: 100%;
-                // flex-basis: 20%;
-                min-width: 170px;
                 border: 1px solid gray;
                 border-radius: 10px;
                 overflow: hidden;
-                margin-bottom: 5%;
+      
+                margin-bottom: 3rem;
                 transition: all ease 0.2s;
 
                 &:hover {
@@ -46,13 +53,14 @@
 
 
                 &:not(:last-child) {
-                    margin-right: 10px;
+                    margin-right: 5rem;
                 }
 
                 .textContainer {
                     display: flex;
                     justify-content: space-between;
                     padding: 1rem 1rem;
+                    font-size: 2rem;
                 }
             }
         }

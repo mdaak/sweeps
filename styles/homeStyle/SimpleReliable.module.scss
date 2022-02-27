@@ -10,27 +10,35 @@
   min-width: 340px;
   margin-left: 2rem;
   padding-left: 2rem;
-  margin-top: 3rem;
+  margin-top: 8rem;
   margin-right: 2rem;
   padding-right: 2rem;
+  font-size: 3rem;
+  padding-bottom: 8rem;
+  h2{
+    font-size: 3rem;
+  }
 }
 
 .simpleCard {
   display: flex;
-  // width: 100%;
-  // margin: 1rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 8rem;
   .card {
     width: 25%;
     min-width: 300px;
     padding: 0 10px 0 10px;
     color: #656565;
+    font-size: 4rem;
+    h3{
+      font-size: 2.5rem;
+    }
   }
 }
 .cardBottomText {
   margin-top: 3rem;
+  font-size: 3.5rem;
 }
 .cardFooter {
   text-align: center;
@@ -40,10 +48,18 @@
   padding-bottom: 3rem;
   font-weight: 600;
   font-weight: 5px;
+  font-size: 4rem;
+  @media (max-width:450px) {
+    font-size: 3rem;
+  }
   button {
     background-color: #fff;
     padding: 1rem 2rem;
     border: none;
     border-radius: 5px;
+    font-size: 1.75rem;
+    @media (max-width:450px) {
+      font-size: 1.5rem;
+    }
   }
 }

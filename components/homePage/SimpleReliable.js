@@ -50,6 +50,7 @@ const SimpleReliable = () => {
             return (
               <div key={i} className={styles.card}>
                 <div>
+                  <p>&#x270D;</p>
                   <h3>{data.heading}</h3>
                   <p>{data.content}</p>
                 </div>
@@ -58,9 +59,9 @@ const SimpleReliable = () => {
           })}
         </div>
         <div className={styles.cardBottomText}>
-          <p>
-            Flexible, friendly and fairly priced...what else can you ask for in
-            an on-demand service?
+          <p><i>Flexible, friendly and fairly priced...what else can you ask for in
+            an on-demand service?</i>
+            
           </p>
           <p>
             <b>- Brent B., moving in Cary</b>
