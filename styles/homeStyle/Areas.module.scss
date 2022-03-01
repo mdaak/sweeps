@@ -1,0 +1,53 @@
+.areaSection {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  .areaDiv {
+    width: 100%;
+    max-width: 1500px;
+    h1 {
+      font-size: 3rem;
+      padding-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .areaContent {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+      padding: 5rem 2rem;
+      @media (max-width: 1150px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @media (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 600px) {
+        grid-template-columns: auto;
+      }
+      .card {
+        box-shadow: 2px 2px 4px silver;
+        overflow: hidden;
+        border-radius: 1rem;
+        transition: all ease 0.2s;
+        &:hover {
+          transform: translateY(-20px);
+          transition: all ease 0.4s;
+        }
+
+        .cardImage {
+          position: relative;
+          width: 100%;
+        }
+        .cardText {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 3rem;
+          padding: 0 2rem;
+        }
+      }
+    }
+  }
+}

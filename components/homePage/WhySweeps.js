@@ -13,8 +13,8 @@ const WhySweeps = () => {
               <Image
                 src="https://uploads-ssl.webflow.com/607e52c130b67869671e3951/60a2912514584d2805789041_security.png"
                 //   layout="fill"
-                width={150}
-                height={150}
+                width={125}
+                height={125}
                 alt=""
               />
             </div>
@@ -26,8 +26,8 @@ const WhySweeps = () => {
               <Image
                 src="https://uploads-ssl.webflow.com/607e52c130b67869671e3951/60a291250d5f7e89d48b61f9_profile_head_icon.png"
                 //   layout="fill"
-                width={150}
-                height={150}
+                width={125}
+                height={125}
                 alt=""
               />
             </div>
@@ -39,8 +39,8 @@ const WhySweeps = () => {
               <Image
                 src="https://uploads-ssl.webflow.com/607e52c130b67869671e3951/60a291254448f01bb04e770d_phone.png"
                 //   layout="fill"
-                width={150}
-                height={150}
+                width={125}
+                height={125}
                 alt=""
               />
             </div>
@@ -52,8 +52,8 @@ const WhySweeps = () => {
               <Image
                 src="https://uploads-ssl.webflow.com/607e52c130b67869671e3951/60a291250721c1842175a089_heart.png"
                 //   layout="fill"
-                width={150}
-                height={150}
+                width={125}
+                height={125}
                 alt=""
               />
             </div>

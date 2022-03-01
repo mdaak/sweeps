@@ -26,21 +26,21 @@
       background-color: #2b2b2b89;
       padding-bottom: 3rem;
       font-size: 3rem;
-      @media (max-width:740px) {
+      @media (max-width: 740px) {
         font-size: 2rem;
       }
 
       h1 {
         font-weight: 700;
-        font-size: 6rem;
-        @media (max-width:1040px) {
-          font-size: 5rem;
-        }
-        @media (max-width:880px) {
-          font-size: 4rem;
-        }
-        @media (max-width:740px) {
+        font-size: 4rem;
+        @media (max-width: 1140px) {
           font-size: 3rem;
+        }
+        @media (max-width: 880px) {
+          font-size: 2rem;
+        }
+        @media (max-width: 740px) {
+          font-size: 2rem;
         }
       }
     }

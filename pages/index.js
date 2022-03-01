@@ -1,3 +1,4 @@
+import Areas from "../components/homePage/Areas";
 import Footer from "../components/homePage/Footer";
 import HeroSection from "../components/homePage/HeroSection";
 import SimpleReliable from "../components/homePage/SimpleReliable";
@@ -12,6 +13,7 @@ export default function Home() {
      <SimpleReliable/>
      <WeCard/>
      <WhySweeps/>
+     <Areas/>
      <Footer/>
    </div>
   )
