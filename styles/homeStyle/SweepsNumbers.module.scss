@@ -1,0 +1,15 @@
+.numberSection {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  .numberDiv {
+    max-width: 1500px;
+    text-align: center;
+    h1 {
+      font-size: 2rem;
+    }
+    .numberContent {
+      display: flex;
+    }
+  }
+}
