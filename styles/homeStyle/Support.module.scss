@@ -1,0 +1,28 @@
+.supportSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .supportDiv {
+    max-width: 1500px;
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+    .supportText {
+      text-align: left;
+      h2 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.25rem;
+        font-weight: 400;
+        padding: 1rem 0;
+      }
+    }
+    .supportMsg {
+    }
+  }
+}

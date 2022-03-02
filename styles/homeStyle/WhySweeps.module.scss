@@ -13,7 +13,7 @@
 
     h1 {
       color: black;
-      font-size: 4rem;
+      font-size: clamp(1.5rem, 3vw, 3.5rem);
     }
 
     .cardSection {

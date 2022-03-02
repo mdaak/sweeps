@@ -1,15 +1,29 @@
 .numberSection {
-  background-color: aqua;
+  background-color: #5d5b59;
   display: flex;
   justify-content: center;
+  color: #fff;
+  padding: 4rem 0;
   .numberDiv {
     max-width: 1500px;
     text-align: center;
-    h1 {
+    h2 {
       font-size: 2rem;
     }
+
     .numberContent {
       display: flex;
+      padding: 1rem;
+      @media (max-width: 750px) {
+        display: block;
+      }
+
+      .cardText {
+        padding: 2rem;
+        h1 {
+          font-size: clamp(1.5rem, 3vw, 3rem);
+        }
+      }
     }
   }
 }

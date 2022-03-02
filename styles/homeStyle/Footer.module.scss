@@ -13,6 +13,7 @@
     @media (max-width: 765px) {
       display: block;
     }
+
     .iconSection {
       flex: 0.4;
       text-align: center;
@@ -39,6 +40,10 @@
       }
       p {
         font-size: 1rem;
+      }
+      @media (max-width: 650px) {
+        display: block;
+        padding-top: 2rem;
       }
     }
   }
