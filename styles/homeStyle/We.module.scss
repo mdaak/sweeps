@@ -36,16 +36,18 @@
 
       .card {
         width: 100%;
-        border: 1px solid gray;
+        border: 1px solid rgb(255, 255, 255);
         border-radius: 10px;
         overflow: hidden;
-
+        box-shadow: 5px 5px 5px gray;
         margin-bottom: 3rem;
-        transition: all ease 0.2s;
+        transition: all ease 0.5s;
 
         &:hover {
-          transform: translateY(20px);
-          transition: all ease 0.4s;
+          transform: translateY(-20px);
+          transition: all ease 0.5s;
+          box-shadow: 5px 5px 5px yellow;
+          cursor: pointer;
         }
 
         &:not(:last-child) {
@@ -66,4 +68,10 @@
 .imgContainer {
   position: relative;
   height: 200px;
+  transition: transform 2s;
+  & :hover img{
+    transform:scale(1);
+
+  }
 }
+

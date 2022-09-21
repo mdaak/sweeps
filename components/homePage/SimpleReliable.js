@@ -1,28 +1,33 @@
 import React from "react";
 import styles from "../../styles/homeStyle/SimpleReliable.module.scss";
+import { RiComputerLine } from 'react-icons/ri';
+import { BsCalendarCheck } from 'react-icons/bs';
+import { CgCalendarTwo } from 'react-icons/cg';
+import { HiOutlineClock } from 'react-icons/hi';
+
 
 const cardData = [
   {
     id: 1,
-    logo: "/",
+    logo: <RiComputerLine/>,
     heading: "Painless Process",
     content: "Simple and intuitive online process from posting to payment.",
   },
   {
     id: 2,
-    logo: "/",
+    logo: <BsCalendarCheck/>,
     heading: "On-Demand",
     content: "Reserve months in advance or for this afternoon.",
   },
   {
     id: 3,
-    logo: "/",
+    logo: <CgCalendarTwo/>,
     heading: "Book Now, Pay Later",
     content: "No up-front charges, pay once the job is done.",
   },
   {
     id: 4,
-    logo: "/",
+    logo: <HiOutlineClock/>,
     heading: "Fair Pricing",
     content: "No hidden fees. Pay only for the time worked.",
   },
@@ -50,8 +55,8 @@ const SimpleReliable = () => {
             return (
               <div key={i} className={styles.card}>
                 <div>
-                  <p>&#x270D;</p>
-                  <h3>{data.heading}</h3>
+                  <div className={styles.cardLogo}>{data.logo}</div>
+                  <h4>{data.heading}</h4>
                   <p>{data.content}</p>
                 </div>
               </div>

@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "name": "Odd Jobs",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg",
+    "description": "Hire the right college students to help with just about anything you need Includes everything else, from dog walking to donut delivery!"
+  }, {
+    "id": 2,
+    "name": "Moving",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7d3a23a8b2d56dbaf57_moving.jpg",
+    "description": "Hire strong, motivated movers Includes loading, unloading, packing, assembly, and moving within homes and offices."
+  }, {
+    "id": 3,
+    "name": "Cleaning",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7c3a07f3d64a9fa8afd_cleaning.jpeg",
+    "description": "Hire conscientious, motivated cleaners Includes residential, commercial and move in and out cleaning."
+  }, {
+    "id": 4,
+    "name": "Tutoring",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfea8119513a8b41458db_tutoring.jpg",
+    "description": "Hire smart Sweepers that can tutor in many subjects Includes class subjects, test prep, sports and music lessons and more."
+  }, {
+    "id": 5,
+    "name": "Events",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfeb50986d138478ac84a_events.jpg",
+    "description": "Hire smart, experienced help for your event Includes serving, bartending, setup, cleanup and more."
+  }, {
+    "id": 6,
+    "name": "Yard work",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfebef6402a5470357337_yard.jpg",
+    "description": "Hire motivated to Sweepers to help with your yard projects Includes mowing, weeding, mulching and much more."
+  }, {
+    "id": 7,
+    "name": "Paintiog",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfec87b0416d9b9926ea8_painting.jpg",
+    "description": "Hire motivated painters for your home and business Includes interior and exterior residential and commercial painting."
+  }, {
+    "id": 8,
+    "name": "Tech",
+    "image": "https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfed5f37857726459768e_tech.jpg",
+    "description": "Hire smart, tech-savvy Sweepers for your technology needs Includes home and office hardware installation and repair, software assistance, building and maintaining websites and apps, and more."
+  }
+]

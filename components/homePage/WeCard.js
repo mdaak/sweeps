@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import styles from "../../styles/homeStyle/We.module.scss";
+import catagory from "../../data/job_catagory.json"
 
 const WeCard = () => {
   return (
@@ -13,110 +15,26 @@ const WeCard = () => {
           </p>
         </div>
         <div className={styles.cardDiv}>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7d3a23a8b2d56dbaf57_moving.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/6080e7c3a07f3d64a9fa8afd_cleaning.jpeg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
-          <div className={styles.card}>
-            <div className={styles.imgContainer}>
-              <Image
-                src="https://uploads-ssl.webflow.com/607e52c130b678aa2a1e3968/60acfe960986d1af648ac7d5_anything.jpg"
-                layout="fill"
-                alt=""
-              />
-            </div>
-            <div className={styles.textContainer}>
-              <p>Odd Jobs</p>
-              <p>&#10095;</p>
-            </div>
-          </div>
+          {
+            catagory.map((topic, i) => {
+              return (
+                <div key={i} className={styles.card}>
+                  <div  className={styles.imgContainer}>
+                    <Image
+                      src={topic.image}
+                      layout="fill"
+                      alt=""
+                    />
+                  </div>
+                  <div className={styles.textContainer}>
+                    <p>{topic.name}</p>
+                    <p>&#10095;</p>
+                  </div>
+                </div>
+              )
+
+            })
+          }
         </div>
       </div>
     </div>
