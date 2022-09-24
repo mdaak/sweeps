@@ -11,15 +11,11 @@ const NavBar = () => {
         </div>
         <div className={styles.NavManu}>
           <ul>
-            <p>1-855-SWEEPS7</p>
+            <p><a href="tel:+8801913905113">+8801913905113</a></p>
             <div style={{borderLeft:'.1px solid black',height:'25px', marginLeft:'25px'}}></div>
-            <li className={styles.listItem}>About</li>
-            <li>Locations</li>
-            <li>Services</li>
-            <li>Pricing</li>
             <button className={styles.grayBtn}>Become a Sweeper</button>
             <button>Post a Job</button>
-            <li className={styles.listItem}>Sign in</li>
+            <li className={styles.signIn}>Sign in</li>
           </ul>
         </div>
       </div>

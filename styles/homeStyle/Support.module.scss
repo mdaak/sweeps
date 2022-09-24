@@ -5,7 +5,7 @@
   .supportDiv {
     max-width: 1500px;
     width: 100%;
-    min-width: 400px;
+    // min-width: 400px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
     padding: 0 2rem;
     .supportText {
       text-align: left;
+      padding: 2rem;
       h2 {
         font-size: 2.5rem;
       }
@@ -22,7 +23,37 @@
         padding: 1rem 0;
       }
     }
-    .supportMsg {
+    .supportMsg{
+      display: grid;
+      gap: 20px;
+      padding: 2rem;
+      
+      .msg{
+        display: flex;
+        // grid-template-columns: 70px auto;
+        box-sizing: border-box;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 10px  #888888;
+        padding: 1rem;
+        text-align: center;
+        margin-left: -2rem;
+        
+      }
+      .msgRevarse{
+        display: flex;
+        // grid-template-columns: 70px auto;
+        box-sizing: border-box;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 10px  #888888;
+        padding: 1rem;
+        flex-direction: row-reverse;
+        margin-right: -2rem;
+      }
     }
   }
+}
+@media (max-width:1024px) {
+ .supportDiv{
+  flex-direction: column;
+ } 
 }

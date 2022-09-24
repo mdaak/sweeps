@@ -39,15 +39,20 @@ $green-Btn: #50bf82;
       background-color: transparent;
     }
   }
+  .signIn{
+    border:1px solid #50bf82;
+    background-color: #50bf82;
+    color: white;
+    padding: .5rem 2rem;
+
+  }
   @media (max-width: 1000px) {
     p,
     li,
     div {
       display: none;
     }
-    .listItem {
-      display: block;
-    }
+   
   }
   @media (max-width: 620px) {
     display: none;
