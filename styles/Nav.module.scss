@@ -31,13 +31,22 @@ $green-Btn: #50bf82;
       margin-left: 1rem;
       border: 2px solid rgb(216, 216, 216);
       border-radius: 5px;
-      padding: .5rem 1rem;
+      // padding: .5rem 1rem;
+      height: 3rem;
+      width: 1rem;
       background-color: $green-Btn;
       min-width: 100px;
     }
+   
     .grayBtn {
       background-color: transparent;
+      width: 10rem;
     }
+    .button :hover {
+      border:2px solid pink;
+    }
+
+   
   }
   .signIn{
     border:1px solid #50bf82;

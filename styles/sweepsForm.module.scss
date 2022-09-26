@@ -1,0 +1,36 @@
+.formPage{
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.item1{grid-area: name;}
+.item2{grid-area: mail;}
+.item3{grid-area: age;}
+.item4{grid-area: phone;}
+.item5{grid-area: address;}
+.item6{grid-area: description;}
+.form_field{
+    display: grid;
+    // grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    grid-template-areas: 'name name name mail mail mail'
+                        'age age age phone  phone phone '
+                        'address address address address address address'
+                        'description description description description description description'
+}
+.form{
+    box-shadow: 1px 1px 10px ;
+    border-radius: 1rem;
+    max-width: 768px;
+
+}
+.form_field > input{
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 1px 1px 3px;
+
+}
