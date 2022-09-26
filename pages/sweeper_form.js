@@ -66,7 +66,7 @@ function SweeperForm () {
             <textarea className={styles.item6} value={description} onChange={handleChange} id='description' name='description' type='text' placeholder='description'/>
           </div>
           <div>
-            <input type='submit' value='Submit'/>
+            <input style={{margin:'1.5rem', padding:'5px 10px' }} type='submit' value='Submit'/>
           </div>
         </form>
       </div>

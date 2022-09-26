@@ -18,7 +18,7 @@ const NavBar = () => {
           <ul>
             <p><a href="tel:+8801913905113">+8801913905113</a></p>
             {
-              pathName.pathname !='/join' && <button className={styles.grayBtn}><Link href='/join'><a>Become a Sweeper</a></Link></button>
+              pathName.pathname =='/'  && <button className={styles.grayBtn}><Link href='/join'><a>Become a Sweeper</a></Link></button>
             }
             
             <button>Post a Job</button>
